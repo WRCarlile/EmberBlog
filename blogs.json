@@ -1,0 +1,22 @@
+{ "blogs": [{
+    "title": "Bacon!!!!",
+    "author": "Bob",
+    "date": "6-2-16",
+    "text": "test text"
+  }, {
+    "title": "Cupcakes!!!!!",
+    "author": "Jenny",
+    "date": "6-3-16",
+    "text": "test text2"
+  }, {
+    "title": "Snoop Interview",
+    "author": "Dre",
+    "date": "6-5-16",
+    "text": "test text3"
+  }, {
+    "title": "Windows Lover ",
+    "author": "Bill Gates",
+    "date": "6-6-16",
+    "text": "test text4"
+  }]
+}
