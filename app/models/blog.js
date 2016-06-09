@@ -4,5 +4,6 @@ export default DS.Model.extend({
     title: DS.attr(),
     author: DS.attr(),
     date: DS.attr(),
-    text: DS.attr()
+    text: DS.attr(),
+    comments: DS.hasMany('comment', { async: true })
 });

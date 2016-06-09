@@ -11,8 +11,7 @@ export default Ember.Component.extend({
         title: this.get('title'),
         author: this.get('author'),
         date: this.get('date'),
-        text: this.get('text'),
-        comment: this.get('comment'),
+        text: this.get('text')
       };
       this.set('updateBlogForm', false);
       this.sendAction('update', blog, params);
