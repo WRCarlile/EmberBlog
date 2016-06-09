@@ -1,4 +1,2 @@
-<li>{{blog.title}}, written by {{blog.author}} on {{blog.date}}
-  {{update-blog blog=blog update="update"}}
-  <button {{action 'delete' blog}}>Delete</button>
+<li>{{#link-to 'blog' blog.id}}{{blog.title}}, written by {{blog.author}} on {{blog.date}} {{/link-to}}
 </li>
