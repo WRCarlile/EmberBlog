@@ -1,22 +1,36 @@
-{ "blogs": [{
+{
+  "blogs": [{
     "title": "Bacon!!!!",
     "author": "Bob",
     "date": "6-2-16",
+    "comment": "test comment1",
     "text": "test text"
   }, {
     "title": "Cupcakes!!!!!",
     "author": "Jenny",
     "date": "6-3-16",
+    "comment": "test comment2",
     "text": "test text2"
   }, {
     "title": "Snoop Interview",
     "author": "Dre",
     "date": "6-5-16",
+    "comment": "test comment3",
     "text": "test text3"
   }, {
     "title": "Windows Lover ",
     "author": "Bill Gates",
     "date": "6-6-16",
+    "comment": "test comment4",
     "text": "test text4"
+  }],
+  "comments": [{
+    "text": "test comment1"
+  }, {
+    "text": "test comment2"
+  }, {
+    "text": "test comment3"
+  }, {
+    "text": "test comment4"
   }]
 }
